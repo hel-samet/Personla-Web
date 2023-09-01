@@ -24,7 +24,7 @@ html{
 }
 
 body{
-    height: 200vh;
+    height: 300vh;
     background-color: var(--body-color);
 }
 
@@ -461,6 +461,49 @@ body.dark .search-field i{
     color: white;
     text-align: center;
 }
+
+.portfolio{
+    text-align: center;
+    
+}
+.portfolio h1{
+    padding: 70px 0px 70px 0px;
+}
+.photo img{
+    transition: 0.3s ease-in-out;
+    width: 250px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.photo h1{
+    padding: 0px;
+    margin: 0px;
+    font-size: 17px;
+    margin-top: 15px;
+    letter-spacing: 2px;
+    padding: 0px 0px 5px 0px;
+
+}
+.photo p{
+    color: #2196F3;
+}
+.photo img:hover{
+    opacity: 0.9;
+    transform: scale(0.9) ;
+    -khtml-opacity: .50;
+    -moz-opacity: .50;
+    -ms-filter: ”alpha(opacity=50)”;
+    filter: alpha(opacity=50);
+}
+
+
+
+
+
+
+
 /* ...............Responsive................ */
 
 
@@ -474,6 +517,14 @@ body.dark .search-field i{
   /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
   
+    .photo img{
+        transition: 0.3s ease-in-out;
+        width: 230px;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
   }
 
 /* Medium devices (tablets, 768px and up) */
@@ -523,6 +574,15 @@ body.dark .search-field i{
         text-align: center;
     }
  
+    .photo img{
+        transition: 0.3s ease-in-out;
+        width: 160px;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+    
     
  }
 /* 
@@ -618,6 +678,15 @@ body.dark .search-field i{
         font-size: 13px;
         color: white;
         text-align: center;
+    }
+
+    .photo img{
+        transition: 0.3s ease-in-out;
+        width: 350px;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     }
     
   
