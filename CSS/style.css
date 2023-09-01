@@ -439,7 +439,7 @@ body.dark .search-field i{
 
 .banner{
     position: relative;
-    background-image: url("/IMG/banner-bg.jpg");
+    background-image: url("IMG/banner-bg.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
