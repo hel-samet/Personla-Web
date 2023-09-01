@@ -433,6 +433,34 @@ body.dark .search-field i{
 .js {width: 65%; background-color: #f44336;margin-top: -10px;}
 .php {width: 70%; background-color: #4e05ed;margin-top: -10px;}
 
+
+
+
+
+.banner{
+    position: relative;
+    background-image: url("/IMG/banner-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+.as{
+    padding: 100px;
+}
+.About-ex h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.About-ex p{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
 /* ...............Responsive................ */
 
 
@@ -480,7 +508,21 @@ body.dark .search-field i{
         object-fit: cover ;
         padding: 0px 0px 0px 10px ;
     } 
-  
+    .About-ex{
+        padding: 30px;
+    }
+    .About-ex h1{
+        text-align: center;
+        color: white;
+        font-size: 30px;
+    }
+    
+    .About-ex p{
+        font-size: 10px;
+        color: white;
+        text-align: center;
+    }
+ 
     
  }
 /* 
@@ -522,7 +564,23 @@ body.dark .search-field i{
         height: auto;
        
     }
- 
+
+    .as{
+        padding: 10px;
+    }
+    .About-ex h1{
+        text-align: center;
+        color: white;
+        font-size: 30px;
+    }
+    
+    .About-ex p{
+        font-size: 10px;
+        color: white;
+        text-align: center;
+    }
+
+
 }
 
  
@@ -546,6 +604,22 @@ body.dark .search-field i{
         height: auto;
         object-fit: cover;
     }
+
+    .as{
+        padding: 30px;
+    }
+    .About-ex h1{
+        text-align: center;
+        color: white;
+        font-size: 30px;
+    }
+    
+    .About-ex p{
+        font-size: 13px;
+        color: white;
+        text-align: center;
+    }
+    
   
 
  }
