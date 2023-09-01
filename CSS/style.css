@@ -419,7 +419,7 @@ body.dark .search-field i{
   
 }
 .about-img img{
-    width: 450px;
+    width: 350px;
     height: auto;
     object-fit: cover;
 }
@@ -515,6 +515,21 @@ body.dark .search-field i{
         height: auto;
         object-fit: cover;
     }
+   
+    
+  
+    .about-img img{
+        margin-top: 20px;
+        width: 350px;
+        height: auto;
+        object-fit: cover;
+    }
+        margin-top: 20px;
+        width: 10px;
+        height: auto;
+        object-fit: cover;
+    }
+
  }
 @media (max-width: 575.98px) { 
     .Home-page {
@@ -531,11 +546,13 @@ body.dark .search-field i{
         margin-top: 15px;
         margin-right: 30px;
     };
+
     .about-img img{
-        margin-top: 20px;
+        width: 30px;
         height: auto;
         object-fit: cover;
     }
+  
 
  }
 
