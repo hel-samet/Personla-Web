@@ -511,7 +511,7 @@ body.dark .search-field i{
 
     .about-img img{
         margin-top: 20px;
-        width: 450px;
+        width: 350px;
         height: auto;
         object-fit: cover;
     }
@@ -533,7 +533,6 @@ body.dark .search-field i{
     };
     .about-img img{
         margin-top: 20px;
-        width: 350px;
         height: auto;
         object-fit: cover;
     }
