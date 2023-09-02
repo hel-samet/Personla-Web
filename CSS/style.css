@@ -679,7 +679,7 @@ body.dark .search-field i {
 
 
 .footer{
-    background-image: url("/IMG/banner-bg.jpg");
+    background-image: url("../IMG/banner-bg.jpg");
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -781,6 +781,8 @@ body.dark .search-field i {
     width: 60%;
     border: 1px solid #ccc;
     line-height: 50px;
+    
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .fot-3 button{
     padding: 10px 20px;
