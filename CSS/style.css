@@ -625,8 +625,8 @@ body.dark .search-field i {
     padding: 20px;
     width: 100%;
     height: auto;
-    background-color: rgba(255, 255, 255, 0.305);
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: rgb(212, 210, 210) 1.95px 1.95px 2.6px;
     border-radius: 10px;
 
 }
@@ -666,6 +666,7 @@ body.dark .search-field i {
     border-radius: 3px;
     color: #000;
     border: 1px solid  gainsboro;
+    background-color: #00000000;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
@@ -678,7 +679,7 @@ body.dark .search-field i {
 
 
 .footer{
-    background-image: url("../IMG/banner-bg.jpg");
+    background-image: url("/IMG/banner-bg.jpg");
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -969,6 +970,7 @@ body.dark .search-field i {
 
     }
 
+    
 }
 
 
@@ -1041,4 +1043,118 @@ body.dark .search-field i {
     }
 
 
+    .footer{
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        margin-top: 90px !important;
+        height: auto;
+        opacity: 0.9;
+        padding: 30px;
+    }
+    .fot-1{
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .fot-1 h1{
+        width: 90%;
+        margin-top: 50px;
+        color: white;
+        font-size: 17px;
+        font-weight: 600;
+        border-bottom: 1px solid rgb(255, 255, 255);
+        padding-bottom: 20px;
+    }
+    .fot-1 p{
+        color: white;
+        font-size: 15px;
+    
+    }
+    .fot-1 a i{
+    
+        flex-grow: 10px;
+        margin-right: auto;
+        font-size: 25px;
+        color: rgb(0, 153, 255);
+        background-color: white;
+        padding: 7px;
+        border-radius: 5px;
+        opacity: 0.9;
+    }
+    .fot-1 a i:hover{
+        background-color: rgb(0, 153, 255);
+        color: white;
+    }
+    
+    
+    .fot-2{
+        padding: 0px;
+        margin: 0px;
+        align-items: center;
+    }
+    
+    .fot-2 h1{
+        
+        margin-top: 50px;
+        color: white;
+        font-size: 17px;
+        font-weight: 600;
+        border-bottom: 1px solid rgb(255, 255, 255);
+        padding-bottom: 20px;
+        width: 50%;
+    }
+    
+    .fot-2 a{
+        color: white;
+        padding-bottom: 10px;
+        font-weight: 300;
+        display: flex;
+        font-size: 15px;
+    }
+    
+    .fot-3{
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .fot-3 h1{
+        width: 85%;
+        margin-top: 50px;
+        color: white;
+        font-size: 17px;
+        font-weight: 600;
+        border-bottom: 1px solid rgb(255, 255, 255);
+        padding-bottom: 20px;
+    }
+    .fot-3 a{
+        color: white;
+        padding-bottom: 10px;
+        font-weight: 500;
+        display: flex;
+        font-size: 15px;
+        text-decoration: none;
+    }
+    .fot-3 a span{
+        margin-left: 10px;
+        font-weight: 300;
+        text-decoration: none;
+    }
+    .fot-3 input{
+        border-radius: 7px 0px 0px 7px;
+        width: 60%;
+        border: 1px solid #ccc;
+        line-height: 50px;
+    }
+    .fot-3 button{
+        padding: 10px 20px;
+        line-height: 31px;
+        margin-left: -4px;
+        border: 0px;
+        background-color: #182848;
+        color: white;
+        font-weight: 500;
+    }
+    
+    
 }
