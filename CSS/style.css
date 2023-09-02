@@ -7,7 +7,6 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     transition: all 0.4s ease;
-    ;
 }
 
 html {
@@ -22,12 +21,13 @@ html {
     --text-color: #FFF;
     --search-bar: #F2F2F2;
     --search-text: #010718;
+    
 
 
 }
 
 body {
-    height: 300vh;
+    
     background-color: var(--body-color);
 }
 
@@ -38,7 +38,8 @@ body.dark {
     --text-color: #CCC;
     --search-bar: #242526;
     -webkit-text-fill-color: rgba(255, 255, 255, 0.796);
-    --box-1-background: #000
+    --box-1-background: #000;
+
 }
 
 nav {
@@ -503,7 +504,7 @@ body.dark .search-field i {
 }
 
 .portfolio h1 {
-    padding: 70px 0px 70px 0px;
+    padding: 90px 0px 70px 0px;
 }
 
 .photo img {
@@ -614,6 +615,181 @@ body.dark .search-field i {
     display: block;
 }
 
+
+.contact-us h1{
+    padding: 90px 0px 50px 0px;
+    text-align: center;
+}
+
+.adress{
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.305);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 10px;
+
+}
+
+.adress h1{
+    padding: 0px 0px 10px 0px;
+    margin: 0px;
+    display: block;
+    font-size: 17px;
+    color: #010718c0;
+    text-align: left;
+    margin-top: 20px;
+
+
+}
+
+.adress span{
+    color: #000;
+    padding: 0px 0px 2px 0px;
+    display: block;
+    font-size: 12px;
+}
+
+
+.mycontact{
+    padding: 0px;
+    display: flow-root;
+   
+}
+.mycontact input{
+    width: 45%;
+    float: left;
+    height: 60px;
+    padding: 10;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+    color: #000;
+    border: 1px solid  gainsboro;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#message{
+    width: 90%;
+    border-radius: 10px;
+    height: 150px;
+    padding: 0px;
+}
+
+
+.footer{
+    background-image: url("/IMG/banner-bg.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-top: 90px !important;
+    height: auto;
+    opacity: 0.9;
+    padding: 50px;
+}
+.fot-1{
+    padding: 0px;
+    margin: 0px;
+}
+
+.fot-1 h1{
+    width: 90%;
+    margin-top: 50px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 20px;
+}
+.fot-1 p{
+    color: white;
+    font-size: 15px;
+
+}
+.fot-1 a i{
+
+    flex-grow: 10px;
+    margin-right: auto;
+    font-size: 25px;
+    color: rgb(0, 153, 255);
+    background-color: white;
+    padding: 7px;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+.fot-1 a i:hover{
+    background-color: rgb(0, 153, 255);
+    color: white;
+}
+
+
+.fot-2{
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+}
+
+.fot-2 h1{
+    
+    margin-top: 50px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 20px;
+    width: 50%;
+}
+
+.fot-2 a{
+    color: white;
+    padding-bottom: 10px;
+    font-weight: 300;
+    display: flex;
+    font-size: 15px;
+}
+
+.fot-3{
+    padding: 0px;
+    margin: 0px;
+}
+
+.fot-3 h1{
+    width: 85%;
+    margin-top: 50px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 20px;
+}
+.fot-3 a{
+    color: white;
+    padding-bottom: 10px;
+    font-weight: 500;
+    display: flex;
+    font-size: 15px;
+    text-decoration: none;
+}
+.fot-3 a span{
+    margin-left: 10px;
+    font-weight: 300;
+    text-decoration: none;
+}
+.fot-3 input{
+    border-radius: 7px 0px 0px 7px;
+    width: 60%;
+    border: 1px solid #ccc;
+    line-height: 50px;
+}
+.fot-3 button{
+    padding: 10px 20px;
+    line-height: 31px;
+    margin-left: -4px;
+    border: 0px;
+    background-color: #182848;
+    color: white;
+    font-weight: 500;
+}
 
 /* ...............Responsive................ */
 
