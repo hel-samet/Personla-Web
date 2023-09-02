@@ -678,7 +678,7 @@ body.dark .search-field i {
 
 
 .footer{
-    background-image: url("/IMG/banner-bg.jpg");
+    background-image: url("../IMG/banner-bg.jpg");
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
